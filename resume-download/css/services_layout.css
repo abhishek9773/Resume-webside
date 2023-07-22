@@ -1,0 +1,105 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:Arial;
+    box-sizing:border-box; /*add the padding and height to the actual element*/
+
+}
+#wrapper-div{
+    
+    min-height:100px;
+    width:98%;
+    margin:auto;
+    background-color:rgb(241, 244, 244);
+    align-items:last baseline
+    
+}
+#logo-nav-div{
+    width:100%;
+    min-height:50px;
+    background-color: lightgray;
+}
+#logo-div{
+    width:50%;
+    min-height:50px;
+    background-color: red;
+    float:left;
+    line-height:50px;
+    text-align:center;
+    
+}
+#nav-div{
+    width:50%;
+    min-height:50px;
+    background-color: green;
+    float:right;
+    text-align:center;
+    line-height:50px;
+    
+}
+.clearfix::after{
+    content:"";
+    display:block;
+    clear:both;
+
+}
+.row{
+    width:100%;
+    min-height:100px;
+    background-color: gray;
+    margin-top:10px;
+}
+.col{
+    width:20%;
+    min-height:100px;
+    background-color: lightgray;
+    float:left;
+}
+.col:nth-child(2),.col:nth-child(3){
+    margin-left:5%;
+    margin-right:5%;
+
+
+}
+#boxes {
+    width:100%;
+    min-height:100px;
+    background-color: blue;
+    margin-top:10px;
+}
+.box{
+    width:30%;
+   min-height:100px;
+    background-color: lightblue;
+    float:left;
+}
+.box:nth-child(2){
+    margin-left:5%;
+    margin-right:5%;
+}
+#footer{
+    width:100%;
+    min-height:30px;
+    background-color:lightgray;
+    margin-top:10px;
+    text-align:center;
+    line-height:center;
+
+}
+#nav-div-small1{
+    width:50%;
+    background-color:blueviolet;
+    float:left
+    
+
+}
+#nav-div-small1{
+    width:50%;
+    background-color:azure;
+    float:right;
+}
+button{
+    font-size:large;
+}
+
+
